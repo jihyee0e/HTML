@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>info</title>
+<style type="text/css">
+body,td,th {
+    font-style: normal;
+    font-size: 36px;
+}
+body {
+    background-color: rgba(255,255,255,1);
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.text {
+    margin-left: 200px;
+    margin-right: 240px;
+    float: left;
+    text-align: center;
+}
+.info_1 {
+    margin-right: 240px;
+}
+.line_box.holder {
+    margin-left: 200px;
+    margin-right: 240px;
+    text-align: center;
+}
+</style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('images/롤오버이미지1.jpg','images/북극.jpg')">
+	<div class="line_box holder" style="width:80%; ">
+		<h2>지구온난화, 과연 인간은 안전할까요?</h2>
+		<hr style="border-top-width:1px; border-color:rgba(54, 54, 54, 0.35);">	
+	
+	</div>
+	
+<!--<div class="total" style="float: 80%">-->
+		<div class="text" style="width:80%;">
+		<!--<div style="float: left;" style="width: 80%;">-->
+				<img src="images/intro_title.png" width="750" height="67"/>
+				<img src="images/intro_photo1.png" width="842" height="380" alt=""/><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','images/롤오버이미지1.jpg',1)"><img src="images/폭염.jpg" alt="" width="400" height="380" id="Image7"></a>
+		
+			<p></p>
+			<!--<div class="text2" style="width:80%;">-->
+		<!--<div style="float: left;">-->
+				<img src="images/intro_title2.png" width="750" height="67"/>
+				<img src="images/intro_photo2.png" width="842" height="380" alt=""/><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','images/북극.jpg',1)"><img src="images/바다.jpg" alt="" width="400" height="380" id="Image10"></a>
+		</div>	
+	
+</body>
+</html>

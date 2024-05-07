@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>QnA</title>
+<style type="text/css">
+body,td,th {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#contentWrapper .page-body .table {
+    text-align: left;
+}
+.table #faqTable table {
+    text-align: left;
+}
+#contentWrapper {
+    padding-left: 200px;
+    padding-right: 240px;
+}
+.qna_title {
+    margin-left: 200px;
+    margin-right: 240px;
+}
+</style>
+</head>
+
+<body>
+	<div class="qna_title" style="float: 80%"> <a href="QnA.html"><img src="images/logo.png" height="70px"/></a>
+	</div>
+	
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	
+	<div id="contentWrapper">					
+		<div class="page-body" style="float: 80%">
+			<!--<h3 class="faq-tit">FAQ</h3>-->
+				<div class="faq-search" style="float: 80%">
+					<div class="search-wrqp" style="float: 80%">
+						<fieldset>
+							<p>&nbsp;</p>
+							<legend>FQA 검색</legend>
+							<select class="MS_input_select select-category" id="search-category" style="float: 80%">
+								<option value>전체검색</option>
+								<option value="3">후원문의</option>
+								<option value="4">자주하는질문</option>
+								<option value="2">연락처</option>
+								<option value="5">기타문의</option>
+							</select>
+							<span class="keyword" style="float: 80%">
+								<input id="faqSearch" class="MS_input_txt" onKeyPress="javascript:faqEnter(event);" type="text" value>
+							</span>
+								<a href="javascript:faqSearch('keyword')" class="CSSbuttonBlack btn-submit">SEARCH</a>
+					  </fieldset>
+					</div>
+				</div>
+			<p>&nbsp;</p>			
+			<hr/>
+				<div id="faq-category">
+					<p>&nbsp;</p>
+					<a>전체보기 | 후원문의 | 자주하는질문 | 연락처 | 기타문의</a>
+					<hr/>
+				</div>
+						
+				
+			
+		  <div class="table">
+				<div id="faqTable">
+					<table width="655" border="0" align="left" summary="분류 제목">
+						<caption></caption>
+						<colgroup>
+							<col width="75">
+							<col width="110">
+							<col width="*">
+						</colgroup>
+						<thead>
+							<tr>
+								<th width="79" scope="col">
+									<div style="text-align: center;">번호</div>
+								</th>
+								<th width="144" scope="col">
+									<div style="text-align: center;">분류</div>
+								</th>
+								<th width="418" scope="col">
+									<div style="text-align: center;">제목</div>
+								</th>
+							</tr>
+						</thead>
+								
+						<tbody>
+							<tr uid="10">
+								<td>
+									<div style="text-align: center;">2</div>
+								</td>
+								<td>
+									<div style="text-align: center;">후원문의</div>
+								</td>
+								<td>
+									<div >후원관련문의</div>
+								</td>
+							</tr>
+							<tr uid="11">
+								<td>
+									<div style="text-align: center;">1</div>
+								</td>
+								<td>
+									<div style="text-align: center;">기타문의</div>
+								</td>
+								<td>
+									<div >비밀글입니다.</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+	  </div>
+</div>
+</body>
+</html>
